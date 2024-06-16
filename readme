@@ -1,0 +1,16 @@
+ This project presents ”Tales of Turks,” a procedurally generated 2D top-down
+ RPGgamedevelopedinUnity,highlightingthemythicalcreaturesandstoriesofTurkish
+ mythology. The primary objective of the project is to enhance the gaming experience
+ byintegrating artificial intelligence (AI) for NPC (Non-Playable Character) interactions
+ and procedural level design to increase replayability and user engagement. The game
+ utilizes the OpenAI API to create dynamic and responsive NPC interactions, ensuring
+ that each gameplayexperiencefeelsuniqueandimmersive. Theproceduralleveldesign
+ employs algorithms such as Random Walk and Dijkstra’s algorithm to create unique
+ and challenging game environments for each playthrough. These algorithms enable
+ the creation of new level designs dynamically, ensuring that each level is unique and
+ challenging. Key success criteria include generating new levels in under five seconds,
+ receiving NPC responses within three seconds, and maintaining a high user satisfaction
+ rating based on gameplay difficulty and experience.
+ This project demonstrates the potential of combining AI and procedural genera
+tion to create a compelling and dynamic gaming experience, emphasizing the cultural
+ heritage of Turkish mythology.
