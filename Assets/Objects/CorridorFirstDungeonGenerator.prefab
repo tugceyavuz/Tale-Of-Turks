@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6314575065879159510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7338320875582978529}
+  - component: {fileID: 1443726452876375882}
+  m_Layer: 0
+  m_Name: CorridorFirstDungeonGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7338320875582978529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6314575065879159510}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1443726452876375882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6314575065879159510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f4717818e05c0143b1ad4c2d2c4c5f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileMapVisualizer: {fileID: 0}
+  startPosition: {x: 0, y: 0}
+  playerInstance: {fileID: 871650454642161088, guid: fd35e34bd4cdefb488bec15df0a42182, type: 3}
+  randomWalkParameters: {fileID: 11400000, guid: 077e009d2f091f3469a5afe03d338ff3, type: 2}
+  corridorLength: 20
+  corridorCount: 5
+  roomPercent: 0.5
+  playerPrefab: {fileID: 871650454642161088, guid: fd35e34bd4cdefb488bec15df0a42182, type: 3}
+  bossPrefab: {fileID: 5476741222846547606, guid: 0f6628b1774cdd94197ed2f8171c5ba3, type: 3}
+  objectPrefabs:
+  - {fileID: 142935112242000840, guid: 76a7def3f124ddb47aaa128ec55c2ad6, type: 3}
+  - {fileID: 6592457025246256779, guid: 4fa025ab309f2f74fa6f734ff0351c78, type: 3}
+  objectCounts: 0a0000000a000000
+  spawnPosition: {x: 0, y: 0}
