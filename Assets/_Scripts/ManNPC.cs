@@ -43,7 +43,7 @@ public class ManNPC : MonoBehaviour
 
         // Initialize OpenAIApi with keys from ConfigManager
         Config config = ConfigManager.Instance.Config;
-        openAi = new OpenAIApi("sk-proj-CeQ2lL5q0tNHbDllykKqT3BlbkFJGqUrT8xLc8kbItMBUJBZ", "org-rGuNfRYVID6uGkQP4wsLfjQ0");
+        openAi = new OpenAIApi(,); //insert API
 
         // Read and send the opening prompt at the start
         string openingPrompt = ReadOpeningPrompt(openingPromptFilePath);
