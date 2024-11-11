@@ -8,9 +8,4 @@ that each gameplay experience feels unique and immersive. The procedural level d
 employs algorithms such as Random Walk and Dijkstra's algorithm to create unique
 and challenging game environments for each playthrough. These algorithms enable
 the creation of new level designs dynamically, ensuring that each level is unique and
-challenging. Key success criteria include generating new levels in under five seconds,
-receiving NPC responses within three seconds, and maintaining a high user satisfaction
-rating based on gameplay difficulty and experience.
-This project demonstrates the potential of combining A1 and procedural genera-
-tion to create a compelling and dynamic gaming experience, emphasizing the cultural
-heritage of Turkish mythology.
+challenging.
